@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Kreativ Nexus in Stockholm, Sweden for collaboration, partnership inquiries, events, workshops, and community initiatives." />
+  <meta name="theme-color" content="#0f766e" />
+  <title>Contact | Kreativ Nexus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">KN</span><span class="brand-text">Kreativ Nexus</span></a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" data-nav-toggle><span></span><span></span><span></span></button>
+      <div class="nav-menu" data-nav-menu>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link active" href="contact.html">Contact</a>
+        <a class="btn btn-small btn-primary" href="#collaborate">Partner with us</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero section-padding">
+      <div class="container narrow reveal">
+        <p class="eyebrow">Contact</p>
+        <h1>Let’s create meaningful impact together</h1>
+        <p>Reach out for community initiatives, workshops, study circles, events, collaboration, and partnership inquiries.</p>
+      </div>
+    </section>
+
+    <section class="section-padding" id="collaborate">
+      <div class="container contact-grid">
+        <div class="contact-panel reveal">
+          <p class="eyebrow">Get in touch</p>
+          <h2>Collaboration & partnership inquiries</h2>
+          <p>We welcome conversations with professionals, students, creators, entrepreneurs, community members, organizations, educators, and partners.</p>
+          <div class="contact-details">
+            <p><strong>Email:</strong> <a href="mailto:hello@kreativnexus.se">hello@kreativnexus.se</a></p>
+            <p><strong>Location:</strong> Stockholm, Sweden</p>
+          </div>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" aria-label="LinkedIn profile">LinkedIn</a>
+            <a href="#" aria-label="Instagram profile">Instagram</a>
+            <a href="#" aria-label="GitHub profile">GitHub</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal delay-1" name="contact" action="mailto:hello@kreativnexus.se" method="post" enctype="text/plain">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic" required>
+            <option value="">Select a topic</option>
+            <option>General inquiry</option>
+            <option>Events or workshops</option>
+            <option>Kreativ Forge</option>
+            <option>Partnership or collaboration</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell us how you would like to collaborate or get involved" required></textarea>
+
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p class="form-note">This static form uses your email client. For GitHub Pages, you can later connect a form service such as Formspree or Netlify Forms if needed.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid"><div><strong>Kreativ Nexus</strong><p>Where capability meets opportunity.</p></div><div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="index.html#initiatives">Initiatives</a></div></div>
+    <div class="container footer-bottom">© Kreativ Nexus | Stockholm, Sweden</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
